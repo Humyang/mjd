@@ -1,0 +1,176 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Resouce*/
+
+.jd-sprite-icon {
+	display: block;
+	background: url(../images/jd-sprites.png?v=13) no-repeat;
+	background-size: 200px 200px;
+}
+body {
+	max-width: 640px;
+	margin: 0 auto;
+	padding-top: 0;
+	display: none;
+	  background-color: #f5f5f5;
+}
+
+/*取消元素选中样式和文本框拖放*/
+input, button, select, textarea {
+	outline: none
+}
+textarea {
+	resize: none
+}
+.container {
+	width: 100%;
+}
+
+/*NavBar Search*/
+.customNavBar {
+	width: 100%;
+	max-width: 640px;
+	position: fixed;
+	left: inherit;
+	right: inherit;
+	margin: 0;
+	padding: 0;
+	min-height: 40px;
+	border-color: rgb(207, 30, 30);
+}
+.customNavBar .container {
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(207, 30, 30);
+	border-color: rgb(207, 30, 30);
+}
+.navbar-left-logo {
+	padding-top: 10px;
+	padding-left: 10px;
+	left: 10px;
+	position: absolute;
+}
+.navbar-left-logo i {
+	display: inline-block;
+	width: 56px;
+	height: 21px;
+	background-position: 0 -109px;
+}
+.navbar-middle-search {
+	height: 30px;
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	padding-left: 80px;
+	padding-right: 42px;
+}
+.navbar-middle-search-box {
+	height: 30px;
+	width: 100%;
+	background-color: white;
+	margin-top: 5px;
+	border-radius: 15px;
+	line-height: 40px;
+}
+.navbar-middle-search-box-icon {
+	width: 20px;
+	height: 20px;
+	margin-left: 8px;
+	background-position: -60px -109px;
+	display: inline-block;
+}
+.navbar-middle-search-input-box {
+	display: inline-block;
+	width: 80%;
+	height: 100%;
+}
+.navbar-middle-search-input-box input {
+	border: none;
+	width: 100%;
+	font-size: 13px;
+	line-height: 1.2em;
+	vertical-align: middle;
+	display: inline-block;
+	height: 1.2em;
+	margin-bottom: 10px;
+}
+.navbar-right-login {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+.navbar-right-login a {
+	color: white;
+	line-height: 40px;
+}
+
+/*图片滚动*/
+.scroll-image-box {
+	padding-top: 41px;
+	padding-bottom: 0;
+	position: relative;
+}
+.scroll-image-box .unslider {
+	position: relative;
+}
+.scroll-image-box .container {
+	padding: 0;
+}
+.banner .unslider-nav {
+	position: absolute;
+	bottom: 0;
+	z-index: 99;
+	left: 40%;
+}
+.banner ul {
+	padding: 0;
+	display: block;
+}
+.banner li {
+	display: block;
+}
+.banner a {
+	display: block;
+}
+.banner img {
+	width: 100%;/*	  max-width: 640px;
+		  max-height: 311px;
+		  display: block;*/
+}
+.unslider .unslider-nav {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+.unslider ol {
+	padding: 0;
+}
+
+
+/*快捷进入导航*/
+
+
+.quick-entry-nav{
+	background-color: white;
+}
+.quick-entry-nav a{
+  display: inline-block;
+  width: 25%;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+.quick-entry-nav img{
+	  display: block;
+	    width: 40px;
+	      margin: 0 auto 6px auto;
+}
+.quick-entry-nav span{}
