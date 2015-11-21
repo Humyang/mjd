@@ -14,7 +14,7 @@ body {
 	margin: 0 auto;
 	padding-top: 0;
 	display: none;
-	  background-color: #f5f5f5;
+	background-color: #f5f5f5;
 }
 
 /*取消元素选中样式和文本框拖放*/
@@ -26,6 +26,7 @@ textarea {
 }
 .container {
 	width: 100%;
+	padding: 0;
 }
 
 /*NavBar Search*/
@@ -139,8 +140,8 @@ textarea {
 }
 .banner img {
 	width: 100%;/*	  max-width: 640px;
-		  max-height: 311px;
-		  display: block;*/
+			  max-height: 311px;
+			  display: block;*/
 }
 .unslider .unslider-nav {
 	position: absolute;
@@ -151,26 +152,168 @@ textarea {
 	padding: 0;
 }
 
-
 /*快捷进入导航*/
-
-
-.quick-entry-nav{
+.quick-entry-nav {
 	background-color: white;
+	padding-bottom: 8px;
 }
-.quick-entry-nav a{
+.quick-entry-nav a {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: #666;
+	padding-top: 10px;
+	font-size: 0.9em;
+}
+.quick-entry-nav img {
+	display: block;
+	width: 40px;
+	margin: 0 auto 6px auto;
+}
+
+/*掌上秒杀*/
+.seckill-floor {
+	background-color: white;
+	  margin-top: 7px;
+}
+.seckill-floor .seckill-floor-title {
+	  display: inline-block;
+  width: 100%;
+}
+.seckill-floor-title .seckill-floor-title-icon {
+  width: 16px;
+  height: 20px;
   display: inline-block;
-  width: 25%;
+  background-image: url("../images/seckill-floor-title-icon.png");
+  background-size: 16px 20px;
+  margin-left: 4px;
+  margin-top: 4px;
   float: left;
+}
+.seckill-floor-title .seckill-floor-title-text {
+	  display: inline-block;
+  /* clear: right; */
+  line-height: 2.2;
+   float: left; 
+  padding-left: 4px;
+  color: #c91523
+}
+/*倒计时*/
+.seckill-floor-title .seckill-floor-title-timer{
+  display: inline-block;
+    margin-top: 8px;
+}
+.seckill-floor-title .seckill-floor-title-timer_number{
+background-color: #5d5d5d;
+  color: #fff;
+  width: 15px;
+  display: inline-block;
+  line-height: 15px;
+  height: 15px;
   text-align: center;
+    float: left;
+
+  margin-left: 2px;
+}
+.seckill-floor-title .seckill-floor-title-timer_separator{
+    float: left;
+  height: 15px;
+  text-align: center;
+  line-height: 14px;
+  padding-left: 2px;
+}
+
+
+
+.seckill-floor-title .seckill-floor-title-text-more{
+	display: inline-block;
   text-decoration: none;
+	  float: right;
+	    font-size: .8em;
+  padding-top: 3px;
   color: #666;
-  margin-top: 10px;
-  font-size: 0.9em;
 }
-.quick-entry-nav img{
-	  display: block;
-	    width: 40px;
-	      margin: 0 auto 6px auto;
+.seckill-floor-title .seckill-floor-title-icon-more{
+	width: 7px;
+  height: 12px;
+  display: inline-block;
+  background-position: -186px -51px;
+  margin-left: 2px;
+  margin-top: 4px;
+    margin-right: 2px;
+  float: right;
 }
-.quick-entry-nav span{}
+
+/*商品列表*/
+.seckill-floor-list ul {
+	display: inline-block;
+	padding: 0;
+}
+.seckill-floor-list li {
+	display: inline;
+	float: left;
+	width: 33.333333333%;
+}
+.seckill-floor-list span{
+	display: inline-block;
+	/* clear: right; */
+}
+.seckill-floor-list span.seckill-image{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.seckill-floor-list span.middle {
+border-left: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+}
+.seckill-floor-list a {
+/*	padding-left: 40px;*/
+	display: inline-block;
+	text-decoration: none;
+float: right;
+  text-align: center;
+}
+.seckill-floor-list img {
+	  width: 100%;
+	display: block;
+/*	  padding-left: 40px;*/
+}
+.seckill-floor-list span.seckill-price {
+	  text-align: center;
+  color: #f15353;
+	text-align: center;
+}
+.seckill-floor-list del.seckill-preprice{
+	  text-align: center;
+  display: block;
+  color: #888;
+  font-size: .9em;
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
