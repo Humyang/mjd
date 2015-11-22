@@ -28,19 +28,21 @@ textarea {
 	width: 100%;
 	padding: 0;
 }
+
 /*红色价格*/
 span.seckill-price {
-	  text-align: center;
-  color: #f15353;
+	text-align: center;
+	color: #f15353;
 	text-align: center;
 }
+
 /*原价*/
-del.seckill-preprice{
-	  text-align: center;
-  display: block;
-  color: #888;
-  font-size: .9em;
-  text-decoration: line-through;
+del.seckill-preprice {
+	text-align: center;
+	display: block;
+	color: #888;
+	font-size: .9em;
+	text-decoration: line-through;
 }
 
 /*NavBar Search*/
@@ -154,8 +156,8 @@ del.seckill-preprice{
 }
 .banner img {
 	width: 100%;/*	  max-width: 640px;
-			  max-height: 311px;
-			  display: block;*/
+				  max-height: 311px;
+				  display: block;*/
 }
 .unslider .unslider-nav {
 	position: absolute;
@@ -190,74 +192,70 @@ del.seckill-preprice{
 /*超值秒杀*/
 .seckill-floor {
 	background-color: white;
-	  margin-top: 7px;
+	margin-top: 7px;
 }
 .seckill-floor .seckill-floor-title {
-	  display: inline-block;
-  width: 100%;
+	display: inline-block;
+	width: 100%;
 }
 .seckill-floor-title .seckill-floor-title-icon {
-  width: 16px;
-  height: 20px;
-  display: inline-block;
-  background-image: url("../images/seckill-floor-title-icon.png");
-  background-size: 16px 20px;
-  margin-left: 4px;
-  margin-top: 4px;
-  float: left;
+	width: 16px;
+	height: 20px;
+	display: inline-block;
+	background-image: url("../images/seckill-floor-title-icon.png");
+	background-size: 16px 20px;
+	margin-left: 4px;
+	margin-top: 4px;
+	float: left;
 }
 .seckill-floor-title .seckill-floor-title-text {
-	  display: inline-block;
-  /* clear: right; */
-  line-height: 2.2;
-   float: left; 
-  padding-left: 4px;
-  color: #c91523
+	display: inline-block;  /* clear: right; */
+	line-height: 2.2;
+	float: left;
+	padding-left: 4px;
+	color: #c91523
 }
+
 /*超值秒杀－标题*/
-.seckill-floor-title .seckill-floor-title-timer{
-  display: inline-block;
-    margin-top: 8px;
-}
-.seckill-floor-title .seckill-floor-title-timer_number{
-background-color: #5d5d5d;
-  color: #fff;
-  width: 15px;
-  display: inline-block;
-  line-height: 15px;
-  height: 15px;
-  text-align: center;
-    float: left;
-
-  margin-left: 2px;
-}
-.seckill-floor-title .seckill-floor-title-timer_separator{
-    float: left;
-  height: 15px;
-  text-align: center;
-  line-height: 14px;
-  padding-left: 2px;
-}
-
-
-
-.seckill-floor-title .seckill-floor-title-text-more{
+.seckill-floor-title .seckill-floor-title-timer {
 	display: inline-block;
-  text-decoration: none;
-	  float: right;
-	    font-size: .8em;
-  padding-top: 3px;
-  color: #666;
+	margin-top: 8px;
 }
-.seckill-floor-title .seckill-floor-title-icon-more{
+.seckill-floor-title .seckill-floor-title-timer_number {
+	background-color: #5d5d5d;
+	color: #fff;
+	width: 15px;
+	display: inline-block;
+	line-height: 15px;
+	height: 15px;
+	text-align: center;
+	float: left;
+	margin-left: 2px;
+}
+.seckill-floor-title .seckill-floor-title-timer_separator {
+	float: left;
+	height: 15px;
+	text-align: center;
+	line-height: 14px;
+	padding-left: 2px;
+}
+.seckill-floor-title .seckill-floor-title-text-more {
+	display: inline-block;
+	text-decoration: none;
+	float: right;
+	font-size: .8em;
+	padding-top: 3px;
+	color: #666;
+}
+.seckill-floor-title .seckill-floor-title-icon-more {
 	width: 7px;
-  height: 12px;
-  display: inline-block;
-  background-position: -186px -51px;
-  margin-left: 2px;
-  margin-top: 4px;
-    margin-right: 2px;
-  float: right;
+	height: 12px;
+	display: inline-block;
+	background-position: -186px -51px;
+	margin-left: 2px;
+	margin-top: 4px;
+	margin-right: 2px;
+	float: right;
 }
 
 /*超值秒杀－商品列表*/
@@ -270,239 +268,284 @@ background-color: #5d5d5d;
 	float: left;
 	width: 33.333333333%;
 }
-.seckill-floor-list span{
-	display: inline-block;
-	/* clear: right; */
+.seckill-floor-list span {
+	display: inline-block;	/* clear: right; */
 }
-.seckill-floor-list span.seckill-image{
+.seckill-floor-list span.seckill-image {
 	padding-left: 40px;
 	padding-right: 40px;
 }
 .seckill-floor-list span.middle {
-border-left: 1px solid gainsboro;
-  border-right: 1px solid gainsboro;
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
 }
 .seckill-floor-list a {
-/*	padding-left: 40px;*/
+
+	/*	padding-left: 40px;*/
 	display: inline-block;
 	text-decoration: none;
-float: right;
-  text-align: center;
+	float: right;
+	text-align: center;
 }
 .seckill-floor-list img {
-	  width: 100%;
-	display: block;
-/*	  padding-left: 40px;*/
+	width: 100%;
+	display: block;/*	  padding-left: 40px;*/
 }
-
 
 /*超值购*/
-
-.floor{
-
-    background-color: white;
-    margin-top: 8px;
-    display: inline-block;
-      width: 100%;
+.floor {
+	background-color: white;
+	margin-top: 8px;
+	display: inline-block;
+	width: 100%;
 }
-.floor .title{
-  border-bottom: 1px solid gainsboro;
-  margin: 0;
-  display: block;
-  font-size: 15px;
-  padding-bottom: 7px;
-  color: #7f7f7f;
-  margin: 8px 0 2px 7px;
-  white-space: nowrap;
-  margin: 0;
-  margin-top: 6px;
-  padding-bottom: 9px;
+.floor .title {
+	border-bottom: 1px solid gainsboro;
+	margin: 0;
+	display: block;
+	font-size: 15px;
+	padding-bottom: 7px;
+	color: #7f7f7f;
+	margin: 8px 0 2px 7px;
+	white-space: nowrap;
+	margin: 0;
+	margin-top: 6px;
+	padding-bottom: 9px;
 }
 .floor .title:before {
-      content: "";
-  display: block;
-  width: 3px;
-  height: 12px;
-  float: left;
-  background: #d8505c;
-  margin: 3px 7px 0 9px;
+	content: "";
+	display: block;
+	width: 3px;
+	height: 12px;
+	float: left;
+	background: #d8505c;
+	margin: 3px 7px 0 9px;
 }
-.floor .discount-link{
-
-  display: inline-block;
-  }
- .floor img{
-    width: 100%;
- }
-
-.discount-floor .left-floor{
-  width: 50%;
-  float: left;
-  height: 100%;
-  border-right: 1px solid gainsboro;
-  padding-bottom: 8px;
+.floor .discount-link {
+	display: inline-block;
 }
-.discount-floor .up-floor{
-  width: 50%;
-  float: right;
-
-  height: 50%;
-  border-bottom: 1px solid gainsboro;
+.floor img {
+	width: 100%;
 }
-.discount-floor .down-floor{
-  width: 50%;
-  float: right;
-  height: 50%;
+.discount-floor .left-floor {
+	width: 50%;
+	float: left;
+	height: 100%;
+	border-right: 1px solid gainsboro;
+	padding-bottom: 8px;
 }
-
-
-.brand-floor .right-floor{
-  width: 50%;
-  float: right;
-  height: 100%;
-  border-left: 1px solid gainsboro;
-  padding-bottom: 8px;
+.discount-floor .up-floor {
+	width: 50%;
+	float: right;
+	height: 50%;
+	border-bottom: 1px solid gainsboro;
 }
-.brand-floor .up-floor{
-  width: 50%;
-  float: left;
-
-  height: 50%;
-  border-bottom: 1px solid gainsboro;
+.discount-floor .down-floor {
+	width: 50%;
+	float: right;
+	height: 50%;
 }
-.brand-floor .down-floor{
-  width: 50%;
-  float: left;
-  height: 50%;
+.brand-floor .right-floor {
+	width: 50%;
+	float: right;
+	height: 100%;
+	border-left: 1px solid gainsboro;
+	padding-bottom: 8px;
+}
+.brand-floor .up-floor {
+	width: 50%;
+	float: left;
+	height: 50%;
+	border-bottom: 1px solid gainsboro;
+}
+.brand-floor .down-floor {
+	width: 50%;
+	float: left;
+	height: 50%;
 }
 
 /*主题馆*/
-.activity-floor{
-
-
+.activity-floor {
 }
-.activity-floor .title{
-border:none;
-padding-bottom: 0;
+.activity-floor .title {
+	border: none;
+	padding-bottom: 0;
 }
-.activity-floor .cycle-img-box{
-  display: inline-block;
-  position: absolute;
-  right: 5px;
-  width: 35%;
+.activity-floor .cycle-img-box {
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	width: 35%;
 }
-.activity-floor ul{
-margin: 0;
-  overflow: auto;
-  padding: 5px;
+.activity-floor ul {
+	margin: 0;
+	overflow: auto;
+	padding: 5px;
 }
-.activity-floor li{
-  display: inline-block;
-    width: 50%;
-  float: left;
-    padding: 5px;
-  padding-bottom: 5px;
+.activity-floor li {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding: 5px;
+	padding-bottom: 5px;
 }
-.activity-floor .activity-floor-link{
-    display: inline-block;
-  width: 100%;
-position: relative;
+.activity-floor .activity-floor-link {
+	display: inline-block;
+	width: 100%;
+	position: relative;
 }
 
 /*猜你喜欢*/
+.geuss-floor {
+}
+.geuss-floor .geuss-floor-title-box {
+	overflow: auto;
+}
+.geuss-floor .title {
+	float: left;
+	border: none;
+	width: 100%;
+}
+.geuss-floor .geuss-floor-title-login-icon {
+	background: url(../images/geuss-floor-title-login-icon.png) no-repeat;
+	background-size: 17px 17px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	float: right;
+	margin-right: 6px;
+}
+.geuss-floor .geuss-floor-title-login-link {
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	color: #f15353;
+	font-size: .9em;
+	padding-top: 1px;
+}
+.geuss-floor .geuss-floor-title-login-link-icon {
+	background: url(../images/geuss-floor-title-login-link-icon.png) no-repeat;
+	background-size: 4px 7px;
+	display: inline-block;
+	width: 4px;
+	height: 7px;
+	float: right;
+	margin-left: 6px;
+	margin-top: 5px;
+	margin-right: 7px;
+}
+.geuss-floor .geuss-floor-item-box {
+}
+.geuss-floor-item-box ul {
+	list-style: none;
+	padding: 0;
+}
+.geuss-floor-item-box li {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.geuss-floor-item-box .geuss-floor-item-content-box {
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.geuss-floor-item-box .geuss-floor-item-link {
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	font-size: .8em;
+	padding: 8px;
+}
+.geuss-floor-item-box .geuss-floor-item-img {
+}
+.geuss-floor-item-box .geuss-floor-item-name {
+	padding-top: 10px;  /* float: left; */
+	display: inline-block;
+}
+.geuss-floor-item-box .geuss-floor-item-price-box {
+	border-top: 1px solid gainsboro;
+	padding-left: 8px;
+	display: block;
+	padding-bottom: 10px;
+	overflow: auto;
+	margin-right: 11px;
+}
+.geuss-floor-item-box .geuss-floor-item-price {
+}
+.geuss-floor-item-box .geuss-floor-item-price-more {
+	border: 1px solid #999;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 12px;
+	color: #999;  /* padding: 2px 6px; */
+	float: right;
+	margin-right: 2px;
+	margin-top: 2px;
+	height: 21px;
+	padding: 2px 6px 5px 6px;
+	text-decoration: none;
+}
 
-.geuss-floor{}
-.geuss-floor .geuss-floor-title-box{
-    overflow: auto;
+/*页脚*/
+.footer {
+	text-align: center;
+	background-color: #f8f8f8;
+	  margin-top: 8px;
 }
-.geuss-floor .title{
-    float: left;
-    border: none;
-      width: 100%;
+.footer a {
+	text-decoration: none;
 }
-.geuss-floor .geuss-floor-title-login-icon{
-    background: url(../images/geuss-floor-title-login-icon.png) no-repeat;   
-    background-size: 17px 17px;
-    display: inline-block;   
-    width: 17px;   
-    height: 17px;   
-    float: right;   
-    margin-right: 6px; 
+.footer ul {
+	list-style: none;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+.footer li {
+	display: inline-block;
+}
+.footer ul.footer-function {
+	line-height: 50px;
+	border-top: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+}
+ul.footer-function li {
+}
+ul.footer-function a {
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #848689;
+	font-size: .9em;
+	border-right: 1px solid rgb(173, 167, 167);
+}
+ul.footer-function li.last-item>a{
+	padding-right: 0;
+	padding-left: 20px;
+	color: #848689;
+	font-size: .9em;
+	border-right: none;
+}
 
-}
-.geuss-floor .geuss-floor-title-login-link{ 
-  float: right;
-  display: inline-block;
-  text-decoration: none;
-  color: #f15353;
-  font-size: .9em;
-  padding-top: 1px;
-}
+.footer ul.footer-jump-version {
 
-
-.geuss-floor .geuss-floor-title-login-link-icon{
-	  background: url(../images/geuss-floor-title-login-link-icon.png) no-repeat;
-  background-size: 4px 7px;
-  display: inline-block;
-  width: 4px;
-  height: 7px;
-  float: right;
-  margin-left: 6px;
-  margin-top: 5px;
-    margin-right: 7px;
+	  border-bottom: 1px solid gainsboro;
 }
-
-.geuss-floor .geuss-floor-item-box{}
-.geuss-floor-item-box ul{
-  list-style: none;
-  padding: 0;
-}
-.geuss-floor-item-box li{
-	  display: inline-block;
-  width: 50%;
-  float: left;
-}
-.geuss-floor-item-box .geuss-floor-item-content-box{
-	  display: inline-block;
-	    margin-bottom: 10px;
-	      margin-left: 10px;
-}
-.geuss-floor-item-box .geuss-floor-item-link{  
-  display: inline-block;
-  text-decoration: none;
-  color: #333;
-  font-size: .8em;
-  padding: 8px;
-}
-.geuss-floor-item-box .geuss-floor-item-img{}
-.geuss-floor-item-box .geuss-floor-item-name{
+ul.footer-jump-version li {
+	  padding-bottom: 10px;
   padding-top: 10px;
-  /* float: left; */
-  display: inline-block;
 }
-.geuss-floor-item-box .geuss-floor-item-price-box{
-  border-top: 1px solid gainsboro;
-  padding-left: 8px;
-  display: block;
-  padding-bottom: 10px;
-  overflow: auto;
-    margin-right: 11px;
-
+ul.footer-jump-version a {
+	  padding-right: 20px;
+  padding-left: 20px;
+  color: #848689;
+  font-size: .9em;
+    display: block;
 }
-.geuss-floor-item-box .geuss-floor-item-price{}
-.geuss-floor-item-box .geuss-floor-item-price-more{
-   border: 1px solid #999;
-  border-radius: 3px;
-  display: inline-block;
+.footer .Copyright {
+	background: #f8f8f8;
+  color: #848689;
+  text-align: center;
   font-size: 12px;
-  color: #999;
-  /* padding: 2px 6px; */
-  float: right;
-  margin-right: 2px;
-  margin-top: 2px;
-  height: 21px;
-  padding: 2px 6px 5px 6px;
-    text-decoration: none;
+    line-height: 40px;
 }
-
-
