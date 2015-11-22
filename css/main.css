@@ -294,13 +294,85 @@ float: right;
 }
 
 
+/*超值购*/
+
+.floor{
+
+    background-color: white;
+    margin-top: 8px;
+    display: inline-block;
+
+}
+.floor .title{
+  border-bottom: 1px solid gainsboro;
+  margin: 0;
+  display: block;
+  font-size: 15px;
+  padding-bottom: 7px;
+  color: #7f7f7f;
+  margin: 8px 0 2px 7px;
+  white-space: nowrap;
+  margin: 0;
+  margin-top: 6px;
+  padding-bottom: 9px;
+}
+.floor .title:before {
+      content: "";
+  display: block;
+  width: 3px;
+  height: 12px;
+  float: left;
+  background: #d8505c;
+  margin: 3px 7px 0 9px;
+}
+.floor .discount-link{
+
+  display: inline-block;
+  }
+ .floor img{
+    width: 100%;
+ }
+
+.discount-floor .left-floor{
+  width: 50%;
+  float: left;
+  height: 100%;
+  border-right: 1px solid gainsboro;
+  padding-bottom: 8px;
+}
+.discount-floor .up-floor{
+  width: 50%;
+  float: right;
+
+  height: 50%;
+  border-bottom: 1px solid gainsboro;
+}
+.discount-floor .down-floor{
+  width: 50%;
+  float: right;
+  height: 50%;
+}
 
 
+.brand-floor .right-floor{
+  width: 50%;
+  float: right;
+  height: 100%;
+  border-left: 1px solid gainsboro;
+  padding-bottom: 8px;
+}
+.brand-floor .up-floor{
+  width: 50%;
+  float: left;
 
-
-
-
-
+  height: 50%;
+  border-bottom: 1px solid gainsboro;
+}
+.brand-floor .down-floor{
+  width: 50%;
+  float: left;
+  height: 50%;
+}
 
 
 
