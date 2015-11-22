@@ -17,7 +17,7 @@ body {
 	background-color: #f5f5f5;
 }
 
-/*取消元素选中样式和文本框拖放*/
+/*全局样式*/
 input, button, select, textarea {
 	outline: none
 }
@@ -27,6 +27,20 @@ textarea {
 .container {
 	width: 100%;
 	padding: 0;
+}
+/*红色价格*/
+span.seckill-price {
+	  text-align: center;
+  color: #f15353;
+	text-align: center;
+}
+/*原价*/
+del.seckill-preprice{
+	  text-align: center;
+  display: block;
+  color: #888;
+  font-size: .9em;
+  text-decoration: line-through;
 }
 
 /*NavBar Search*/
@@ -110,7 +124,7 @@ textarea {
 	line-height: 40px;
 }
 
-/*图片滚动*/
+/*å›¾ç‰‡æ»šåŠ¨*/
 .scroll-image-box {
 	padding-top: 41px;
 	padding-bottom: 0;
@@ -152,7 +166,7 @@ textarea {
 	padding: 0;
 }
 
-/*快捷进入导航*/
+/*快捷入口*/
 .quick-entry-nav {
 	background-color: white;
 	padding-bottom: 8px;
@@ -173,7 +187,7 @@ textarea {
 	margin: 0 auto 6px auto;
 }
 
-/*掌上秒杀*/
+/*超值秒杀*/
 .seckill-floor {
 	background-color: white;
 	  margin-top: 7px;
@@ -200,7 +214,7 @@ textarea {
   padding-left: 4px;
   color: #c91523
 }
-/*倒计时*/
+/*超值秒杀－标题*/
 .seckill-floor-title .seckill-floor-title-timer{
   display: inline-block;
     margin-top: 8px;
@@ -246,7 +260,7 @@ background-color: #5d5d5d;
   float: right;
 }
 
-/*商品列表*/
+/*超值秒杀－商品列表*/
 .seckill-floor-list ul {
 	display: inline-block;
 	padding: 0;
@@ -280,18 +294,6 @@ float: right;
 	display: block;
 /*	  padding-left: 40px;*/
 }
-.seckill-floor-list span.seckill-price {
-	  text-align: center;
-  color: #f15353;
-	text-align: center;
-}
-.seckill-floor-list del.seckill-preprice{
-	  text-align: center;
-  display: block;
-  color: #888;
-  font-size: .9em;
-  text-decoration: line-through;
-}
 
 
 /*超值购*/
@@ -301,7 +303,7 @@ float: right;
     background-color: white;
     margin-top: 8px;
     display: inline-block;
-
+      width: 100%;
 }
 .floor .title{
   border-bottom: 1px solid gainsboro;
@@ -374,18 +376,133 @@ float: right;
   height: 50%;
 }
 
+/*主题馆*/
+.activity-floor{
 
 
+}
+.activity-floor .title{
+border:none;
+padding-bottom: 0;
+}
+.activity-floor .cycle-img-box{
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  width: 35%;
+}
+.activity-floor ul{
+margin: 0;
+  overflow: auto;
+  padding: 5px;
+}
+.activity-floor li{
+  display: inline-block;
+    width: 50%;
+  float: left;
+    padding: 5px;
+  padding-bottom: 5px;
+}
+.activity-floor .activity-floor-link{
+    display: inline-block;
+  width: 100%;
+position: relative;
+}
+
+/*猜你喜欢*/
+
+.geuss-floor{}
+.geuss-floor .geuss-floor-title-box{
+    overflow: auto;
+}
+.geuss-floor .title{
+    float: left;
+    border: none;
+      width: 100%;
+}
+.geuss-floor .geuss-floor-title-login-icon{
+    background: url(../images/geuss-floor-title-login-icon.png) no-repeat;   
+    background-size: 17px 17px;
+    display: inline-block;   
+    width: 17px;   
+    height: 17px;   
+    float: right;   
+    margin-right: 6px; 
+
+}
+.geuss-floor .geuss-floor-title-login-link{ 
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  color: #f15353;
+  font-size: .9em;
+  padding-top: 1px;
+}
 
 
+.geuss-floor .geuss-floor-title-login-link-icon{
+	  background: url(../images/geuss-floor-title-login-link-icon.png) no-repeat;
+  background-size: 4px 7px;
+  display: inline-block;
+  width: 4px;
+  height: 7px;
+  float: right;
+  margin-left: 6px;
+  margin-top: 5px;
+    margin-right: 7px;
+}
 
+.geuss-floor .geuss-floor-item-box{}
+.geuss-floor-item-box ul{
+  list-style: none;
+  padding: 0;
+}
+.geuss-floor-item-box li{
+	  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.geuss-floor-item-box .geuss-floor-item-content-box{
+	  display: inline-block;
+	    margin-bottom: 10px;
+	      margin-left: 10px;
+}
+.geuss-floor-item-box .geuss-floor-item-link{  
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: .8em;
+  padding: 8px;
+}
+.geuss-floor-item-box .geuss-floor-item-img{}
+.geuss-floor-item-box .geuss-floor-item-name{
+  padding-top: 10px;
+  /* float: left; */
+  display: inline-block;
+}
+.geuss-floor-item-box .geuss-floor-item-price-box{
+  border-top: 1px solid gainsboro;
+  padding-left: 8px;
+  display: block;
+  padding-bottom: 10px;
+  overflow: auto;
+    margin-right: 11px;
 
-
-
-
-
-
-
-
+}
+.geuss-floor-item-box .geuss-floor-item-price{}
+.geuss-floor-item-box .geuss-floor-item-price-more{
+   border: 1px solid #999;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+  /* padding: 2px 6px; */
+  float: right;
+  margin-right: 2px;
+  margin-top: 2px;
+  height: 21px;
+  padding: 2px 6px 5px 6px;
+    text-decoration: none;
+}
 
 
