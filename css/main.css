@@ -64,6 +64,7 @@ del.seckill-preprice {
 	margin-left: auto;
 	background-color: rgb(207, 30, 30);
 	border-color: rgb(207, 30, 30);
+	height: 40px;
 }
 .navbar-left-logo {
 	padding-top: 10px;
@@ -91,7 +92,7 @@ del.seckill-preprice {
 	background-color: white;
 	margin-top: 5px;
 	border-radius: 15px;
-	line-height: 40px;
+/*	line-height: 40px;*/
 }
 .navbar-middle-search-box-icon {
 	width: 20px;
@@ -99,21 +100,25 @@ del.seckill-preprice {
 	margin-left: 8px;
 	background-position: -60px -109px;
 	display: inline-block;
+	  float: left;
+  margin-top: 5px;
 }
 .navbar-middle-search-input-box {
 	display: inline-block;
-	width: 80%;
-	height: 100%;
+  width: 80%;
+  height: 100%;
+  float: left;
+  margin-top: 5px;
 }
 .navbar-middle-search-input-box input {
 	border: none;
 	width: 100%;
 	font-size: 13px;
-	line-height: 1.2em;
+/*	line-height: 1.2em;*/
 	vertical-align: middle;
 	display: inline-block;
-	height: 1.2em;
-	margin-bottom: 10px;
+/*	height: 1.2em;
+	margin-bottom: 10px;*/
 }
 .navbar-right-login {
 	display: inline-block;
